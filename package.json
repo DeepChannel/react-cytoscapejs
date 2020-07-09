@@ -1,6 +1,6 @@
 {
   "name": "react-cytoscapejs",
-  "version": "1.2.1",
+  "version": "1.2.1-modified",
   "description": "React-based network visualization component, using Cytoscape",
   "license": "MIT",
   "repository": {
@@ -66,7 +66,7 @@
     "node": ">=8.11.3"
   },
   "dependencies": {
-    "cytoscape": "^3.2.19",
+    "cytoscape": "fishtown-analytics/cytoscape.js.git#feature/cubic-bezier-edges",
     "prop-types": "^15.6.2"
   }
 }
